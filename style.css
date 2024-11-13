@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: crimson;
+  font-size: 20px;
+  color: rgb(122, 44, 185);
+}
+
+cite {
+  font-size: 20px;
+}
+div {
+  border: 2px solid yellow;
+  background-color: aquamarine;
+  border: 16px solid pink;
+}
+
+p {
+  border: 2px solid yellow;
+  margin-bottom: 50px;
+  background-color: chartreuse;
+  font-size: 20px;
+}
+
+span {
+  border: 2px solid yellow;
+  font-size: 30px;
+  color: darkblue;
+}
+
+i {
+  border: 2px solid yellow;
+  color: azure;
+}
+
+code {
+  border: 2px solid yellow;
+  font-size: 70px;
+}
+
+strong {
+  border: 2px solid yellow;
+}
+
+#quote {
+  color: green;
+}
+
+#quote:hover {
+  color: white;
+}
