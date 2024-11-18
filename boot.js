@@ -1,7 +1,7 @@
 console.log("file is working");
 
-let click me = document.getElementById("button");
+let button = document.getElementById("button");
 
-Button.adEventListener("click", function(event) {
-    console.log("clicked")
+button.adEventListener("click", function (event) {
+  console.log("clicked");
 });

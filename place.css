@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+  /* max-width: 800px; */
+  display: flex;
+  justify-content: center;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 800px;
+  background: rgb(1, 146, 175);
+  background: linear-gradient(
+    180deg,
+    rgb(1, 146, 175) 0%,
+    rgba(9, 120, 136, 1) 47%,
+    rgba(2, 0, 36, 1) 89%
+  );
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.4em;
+  color: white;
+}
+
+h1,
+h2 {
+  color: lightgoldenrodyellow;
+  font-family: "Libre Baskerville", serif;
+  font-style: bold;
+}
+
+button {
+  cursor: pointer;
+  background-color: lightgoldenrodyellow;
+}
+
+.button-active {
+  background: rgb(1, 146, 175);
+  background: linear-gradient(
+    0deg,
+    rgb(1, 146, 175) 0%,
+    rgba(9, 120, 136, 1) 47%,
+    rgba(2, 0, 36, 1) 89%
+  );
+}
+
+.paintings {
+  display: block;
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  outline: 6px double wheat;
+  padding: 0.25em;
+}
