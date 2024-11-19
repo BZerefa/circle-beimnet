@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  /* max-width: 800px; */
   display: flex;
   justify-content: center;
 }
@@ -40,13 +39,22 @@ button {
 }
 
 .button-active {
-  background: rgb(1, 146, 175);
+  background: rgb(97, 5, 5);
   background: linear-gradient(
     0deg,
-    rgb(1, 146, 175) 0%,
-    rgba(9, 120, 136, 1) 47%,
-    rgba(2, 0, 36, 1) 89%
+    rgba(97, 5, 5, 1) 0%,
+    rgba(253, 29, 29, 1) 41%,
+    rgba(252, 176, 69, 1) 92%
   );
+}
+
+.link {
+  color: blue;
+}
+
+.link-active {
+  cursor: pointer;
+  color: red;
 }
 
 .paintings {
